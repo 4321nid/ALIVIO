@@ -1,0 +1,38 @@
+// container
+@mixin container{
+    width: 100%;
+    max-width: 1374px;
+    margin: 0% auto;
+    padding: 0px 5px;
+}
+
+// color
+$btn-green: #01996D;
+$bg-green: #245852;
+$text-header: #292929;
+$text-main: #484848;
+$text-content: #424242;
+$text-number: rgba(1, 153, 109, 0.2);
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@font-face {
+	font-family: 'Averin-black'; 
+	src: url(../fonts/AvenirLTStd-Black.otf); 
+}
+@font-face {
+	font-family: 'Averin-book'; 
+	src: url(../fonts/AvenirLTStd-Book.otf); 
+}
+@font-face {
+	font-family: 'Averin-roman'; 
+	src: url(../fonts/AvenirLTStd-Roman.otf); 
+}
+@font-face {
+	font-family: 'Georgia-bold'; 
+	src: url(../fonts/Georgia-Bold.woff); 
+}
+@font-face {
+	font-family: 'Georgia-regular'; 
+	src: url(../fonts/Georgia.woff); 
+}
